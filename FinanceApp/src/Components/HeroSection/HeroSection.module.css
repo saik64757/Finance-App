@@ -1,0 +1,7 @@
+.HeroSectionWrapper {
+  height: 643px;
+  width: 1296px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}

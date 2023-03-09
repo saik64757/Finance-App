@@ -1,0 +1,18 @@
+.NavbarSectionWrapper {
+  width: 1296px;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 55px 72px 0px 72px; */
+}
+
+.NavbarSectionWrapper .downloadbutton {
+  width: 154px;
+  height: 41px;
+  background: #2a5ee4;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

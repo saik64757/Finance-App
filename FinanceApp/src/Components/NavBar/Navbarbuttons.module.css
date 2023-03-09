@@ -1,0 +1,35 @@
+.Alloptions {
+  display: flex;
+  gap: 45px;
+  font-weight: 500;
+}
+
+.Navbuttons {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  background: inherit;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 12px;
+}
+
+button:hover,
+button:focus {
+  background: #dddfe2;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}

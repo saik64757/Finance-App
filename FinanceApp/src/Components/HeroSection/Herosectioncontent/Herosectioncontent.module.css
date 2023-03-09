@@ -1,0 +1,86 @@
+.HeroContentWrapper {
+  width: 470px;
+  height: 578px;
+  /* background-color: aqua; */
+}
+
+.sectionTitle {
+  width: 388px;
+  height: 174px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 87px;
+  color: #121212;
+}
+
+.sectiondetail {
+  width: 470px;
+  height: 64px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: -0.5px;
+  color: #12141d;
+  margin: 24px 0px;
+}
+
+.sectionButton {
+  width: 196px;
+  height: 57px;
+  background: #2a5ee4;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sectiondetailQuote {
+  width: 451px;
+  height: 96px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  /* or 188% */
+  letter-spacing: -0.5px;
+  color: #12141d;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.profileframe {
+  display: flex;
+  gap: 12px;
+  width: auto;
+  height: 64px;
+}
+
+.userName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 32px;
+  /* identical to box height, or 188% */
+  letter-spacing: -0.5px;
+  color: #12141d;
+  margin-top: -12px;
+}
+
+.userfrom {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: -0.5px;
+  color: #12141d;
+  margin-top: 6px;
+}
